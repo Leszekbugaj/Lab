@@ -6075,11 +6075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crast\\source\\repos\\NewBrandingStyle\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
+      "projectUniqueName": "C:\\Users\\crast\\Documents\\GitHub\\Lab\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
       "projectName": "NewBrandingStyle.Web",
-      "projectPath": "C:\\Users\\crast\\source\\repos\\NewBrandingStyle\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
+      "projectPath": "C:\\Users\\crast\\Documents\\GitHub\\Lab\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
       "packagesPath": "C:\\Users\\crast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crast\\source\\repos\\NewBrandingStyle\\NewBrandingStyle.Web\\obj\\",
+      "outputPath": "C:\\Users\\crast\\Documents\\GitHub\\Lab\\NewBrandingStyle.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

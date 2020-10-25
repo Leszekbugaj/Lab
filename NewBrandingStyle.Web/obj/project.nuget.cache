@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rkZmTNzp759foQE5i2olPEf07nxJ7FgkmD/CMbF+2GspESPfpu0qH1+/nrWVa7jxXaIuFb1RvFfmfBs4a9LMpQ==",
+  "dgSpecHash": "vyjg+0DMAmSc7gdRXDhqnIjvEK/xLjqjGV81ABDrPh0L0Qpl4MyB+g1GBc3/O9gp7lR2oGxAdSRpgFLAAlLBkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crast\\source\\repos\\NewBrandingStyle\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
+  "projectFilePath": "C:\\Users\\crast\\Documents\\GitHub\\Lab\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\crast\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\crast\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
