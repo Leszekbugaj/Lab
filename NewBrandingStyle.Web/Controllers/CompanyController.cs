@@ -1,32 +1,42 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NewBrandingStyle.Web.Models;
 
+
 namespace NewBrandingStyle.Web.Controllers
 {
-
     public class CompanyController : Controller
     {
+
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Add()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Index(CompanyModel company)
+        public IActionResult Add(CompanyModel item)
         {
+            // TODO add to database
+
             var viewModel = new CompanyAddedViewModel
             {
-                NumberOfCharsInName = company.Name.Length,
-                NumberOfCharsInDescription = company.Description.Length,
-                IsHidden = !company.IsVisible
+                Id = 1,
+                Name = item.Name,
             };
-            return View("CompanyAdded", viewModel);
+
+            //return View("AddConfirmation", viewModel);
+
+            return RedirectToAction("AddConfirmation");
+        }
+
+        [HttpGet]
+        public IActionResult AddConfirmation()
+        {
+            return View();
         }
     }
 }
