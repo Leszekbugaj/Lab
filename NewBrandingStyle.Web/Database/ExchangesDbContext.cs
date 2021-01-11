@@ -4,9 +4,9 @@ using NewBrandingStyle.Web.Entities;
 
 namespace NewBrandingStyle.Web.Database
 {
-    public class NewBrandingDbContext : DbContext
+    public class ExchangesDbContext : DbContext
     { 
-        public NewBrandingDbContext(DbContextOptions options) : base(options)
+        public ExchangesDbContext(DbContextOptions options) : base(options)
         {
         }
 
@@ -15,7 +15,7 @@ namespace NewBrandingStyle.Web.Database
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            
+            //fluent configuration ...
         }
     }
 }

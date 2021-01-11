@@ -18,7 +18,7 @@ namespace NewBrandingStyle.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(CompanyModel item)
+        public IActionResult Add(CompanyItemModel item)
         {
             // TODO add to database
 
